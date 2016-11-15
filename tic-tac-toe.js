@@ -46,7 +46,7 @@ function one() {
     cover1.setAttribute("height", 100)
     cover1.setAttribute("fill", "black")
     cover1.setAttribute("opacity", 0)
-    canvas.apppendChild(cover1)
+    canvas.appendChild(cover1)
     turn = 1
   }
 }
@@ -77,7 +77,224 @@ function two() {
     cover2.setAttribute("height", 100)
     cover2.setAttribute("fill", "black")
     cover2.setAttribute("opacity", 0)
-    canvas.apppendChild(cover2)
+    canvas.appendChild(cover2)
+    turn = 1
+  }
+}
+function three() {
+  if (turn == 1) {
+    mark3.setAttribute("cx", 250)
+    mark3.setAttribute("cy", 50)
+    mark3.setAttribute("r", 30)
+    mark3.setAttribute("fill", "darkred")
+    canvas.appendChild(mark3)
+    cover3.setAttribute("x", 200)
+    cover3.setAttribute("y", 0)
+    cover3.setAttribute("width", 100)
+    cover3.setAttribute("height", 100)
+    cover3.setAttribute("fill", "black")
+    cover3.setAttribute("opacity", 0)
+    canvas.appendChild(cover3)
+    turn = 2
+  } else {
+    mark3.setAttribute("cx", 250)
+    mark3.setAttribute("cy", 50)
+    mark3.setAttribute("r", 30)
+    mark3.setAttribute("fill", "grey")
+    canvas.appendChild(mark3)
+    cover3.setAttribute("x", 200)
+    cover3.setAttribute("y", 0)
+    cover3.setAttribute("width", 100)
+    cover3.setAttribute("height", 100)
+    cover3.setAttribute("fill", "black")
+    cover3.setAttribute("opacity", 0)
+    canvas.appendChild(cover3)
+    turn = 1
+  }
+}
+function four() {
+  if (turn == 1) {
+    mark4.setAttribute("cx", 50)
+    mark4.setAttribute("cy", 150)
+    mark4.setAttribute("r", 30)
+    mark4.setAttribute("fill", "darkred")
+    canvas.appendChild(mark4)
+    cover4.setAttribute("x", 0)
+    cover4.setAttribute("y", 100)
+    cover4.setAttribute("width", 100)
+    cover4.setAttribute("height", 100)
+    cover4.setAttribute("fill", "black")
+    cover4.setAttribute("opacity", 0)
+    canvas.appendChild(cover4)
+    turn = 2
+  } else {
+    mark4.setAttribute("cx", 50)
+    mark4.setAttribute("cy", 150)
+    mark4.setAttribute("r", 30)
+    mark4.setAttribute("fill", "grey")
+    canvas.appendChild(mark4)
+    cover4.setAttribute("x", 0)
+    cover4.setAttribute("y", 100)
+    cover4.setAttribute("width", 100)
+    cover4.setAttribute("height", 100)
+    cover4.setAttribute("fill", "black")
+    cover4.setAttribute("opacity", 0)
+    canvas.appendChild(cover4)
+    turn = 1
+  }
+}
+function five() {
+  if (turn == 1) {
+    mark5.setAttribute("cx", 150)
+    mark5.setAttribute("cy", 150)
+    mark5.setAttribute("r", 30)
+    mark5.setAttribute("fill", "darkred")
+    canvas.appendChild(mark5)
+    cover5.setAttribute("x", 100)
+    cover5.setAttribute("y", 100)
+    cover5.setAttribute("width", 100)
+    cover5.setAttribute("height", 100)
+    cover5.setAttribute("fill", "black")
+    cover5.setAttribute("opacity", 0)
+    canvas.appendChild(cover5)
+    turn = 2
+  } else {
+    mark5.setAttribute("cx", 150)
+    mark5.setAttribute("cy", 150)
+    mark5.setAttribute("r", 30)
+    mark5.setAttribute("fill", "grey")
+    canvas.appendChild(mark5)
+    cover5.setAttribute("x", 100)
+    cover5.setAttribute("y", 100)
+    cover5.setAttribute("width", 100)
+    cover5.setAttribute("height", 100)
+    cover5.setAttribute("fill", "black")
+    cover5.setAttribute("opacity", 0)
+    canvas.appendChild(cover5)
+    turn = 1
+  }
+}
+function six() {
+  if (turn == 1) {
+    mark6.setAttribute("cx", 250)
+    mark6.setAttribute("cy", 150)
+    mark6.setAttribute("r", 30)
+    mark6.setAttribute("fill", "darkred")
+    canvas.appendChild(mark6)
+    cover6.setAttribute("x", 200)
+    cover6.setAttribute("y", 100)
+    cover6.setAttribute("width", 100)
+    cover6.setAttribute("height", 100)
+    cover6.setAttribute("fill", "black")
+    cover6.setAttribute("opacity", 0)
+    canvas.appendChild(cover6)
+    turn = 2
+  } else {
+    mark6.setAttribute("cx", 250)
+    mark6.setAttribute("cy", 150)
+    mark6.setAttribute("r", 30)
+    mark6.setAttribute("fill", "grey")
+    canvas.appendChild(mark6)
+    cover6.setAttribute("x", 200)
+    cover6.setAttribute("y", 100)
+    cover6.setAttribute("width", 100)
+    cover6.setAttribute("height", 100)
+    cover6.setAttribute("fill", "black")
+    cover6.setAttribute("opacity", 0)
+    canvas.appendChild(cover6)
+    turn = 1
+  }
+}
+function seven() {
+  if (turn == 1) {
+    mark7.setAttribute("cx", 50)
+    mark7.setAttribute("cy", 250)
+    mark7.setAttribute("r", 30)
+    mark7.setAttribute("fill", "darkred")
+    canvas.appendChild(mark7)
+    cover7.setAttribute("x", 0)
+    cover7.setAttribute("y", 200)
+    cover7.setAttribute("width", 100)
+    cover7.setAttribute("height", 100)
+    cover7.setAttribute("fill", "black")
+    cover7.setAttribute("opacity", 0)
+    canvas.appendChild(cover7)
+    turn = 2
+  } else {
+    mark7.setAttribute("cx", 50)
+    mark7.setAttribute("cy", 250)
+    mark7.setAttribute("r", 30)
+    mark7.setAttribute("fill", "grey")
+    canvas.appendChild(mark7)
+    cover7.setAttribute("x", 0)
+    cover7.setAttribute("y", 200)
+    cover7.setAttribute("width", 100)
+    cover7.setAttribute("height", 100)
+    cover7.setAttribute("fill", "black")
+    cover7.setAttribute("opacity", 0)
+    canvas.appendChild(cover7)
+    turn = 1
+  }
+}
+function eight() {
+  if (turn == 1) {
+    mark8.setAttribute("cx", 150)
+    mark8.setAttribute("cy", 250)
+    mark8.setAttribute("r", 30)
+    mark8.setAttribute("fill", "darkred")
+    canvas.appendChild(mark8)
+    cover8.setAttribute("x", 100)
+    cover8.setAttribute("y", 200)
+    cover8.setAttribute("width", 100)
+    cover8.setAttribute("height", 100)
+    cover8.setAttribute("fill", "black")
+    cover8.setAttribute("opacity", 0)
+    canvas.appendChild(cover8)
+    turn = 2
+  } else {
+    mark8.setAttribute("cx", 150)
+    mark8.setAttribute("cy", 250)
+    mark8.setAttribute("r", 30)
+    mark8.setAttribute("fill", "grey")
+    canvas.appendChild(mark8)
+    cover8.setAttribute("x", 100)
+    cover8.setAttribute("y", 200)
+    cover8.setAttribute("width", 100)
+    cover8.setAttribute("height", 100)
+    cover8.setAttribute("fill", "black")
+    cover.setAttribute("opacity", 0)
+    canvas.appendChild(cover8)
+    turn = 1
+  }
+}
+function nine() {
+  if (turn == 1) {
+    mark9.setAttribute("cx", 250)
+    mark9.setAttribute("cy", 250)
+    mark9.setAttribute("r", 30)
+    mark9.setAttribute("fill", "darkred")
+    canvas.appendChild(mark9)
+    cover9.setAttribute("x", 200)
+    cover9.setAttribute("y", 200)
+    cover9.setAttribute("width", 100)
+    cover9.setAttribute("height", 100)
+    cover9.setAttribute("fill", "black")
+    cover9.setAttribute("opacity", 0)
+    canvas.appendChild(cover9)
+    turn = 2
+  } else {
+    mark9.setAttribute("cx", 250)
+    mark9.setAttribute("cy", 250)
+    mark9.setAttribute("r", 30)
+    mark9.setAttribute("fill", "grey")
+    canvas.appendChild(mark9)
+    cover9.setAttribute("x", 200)
+    cover9.setAttribute("y", 200)
+    cover9.setAttribute("width", 100)
+    cover9.setAttribute("height", 100)
+    cover9.setAttribute("fill", "black")
+    cover9.setAttribute("opacity", 0)
+    canvas.appendChild(cover9)
     turn = 1
   }
 }
