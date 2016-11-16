@@ -262,7 +262,7 @@ function eight() {
     cover8.setAttribute("width", 100)
     cover8.setAttribute("height", 100)
     cover8.setAttribute("fill", "black")
-    cover.setAttribute("opacity", 0)
+    cover8.setAttribute("opacity", 0)
     canvas.appendChild(cover8)
     turn = 1
   }
@@ -297,4 +297,36 @@ function nine() {
     canvas.appendChild(cover9)
     turn = 1
   }
+}
+function reset() {
+  if (confirm("Do you really really REALLY WANT TO RESET THE GAME?\nIf you press okay, the board will be cleared.") == true) {
+    reset1()
+  }
+}
+function reset1() {
+  if (confirm("This is your last chance to back out...\n are you REALLY SURE YOU WANT TO RESET THE GAME?") == true) {
+    reset2()
+  }
+}
+function reset2() {
+  mark1.setAttribute("fill", "none")
+  cover1.setAttribute("fill", "none")
+  mark2.setAttribute("fill", "none")
+  cover2.setAttribute("fill", "none")
+  mark3.setAttribute("fill", "none")
+  cover3.setAttribute("fill", "none")
+  mark4.setAttribute("fill", "none")
+  cover4.setAttribute("fill", "none")
+  mark5.setAttribute("fill", "none")
+  cover5.setAttribute("fill", "none")
+  mark6.setAttribute("fill", "none")
+  cover6.setAttribute("fill", "none")
+  mark7.setAttribute("fill", "none")
+  cover7.setAttribute("fill", "none")
+  mark8.setAttribute("fill", "none")
+  cover8.setAttribute("fill", "none")
+  mark9.setAttribute("fill", "none")
+  cover9.setAttribute("fill", "none")
+  turn = 1
+  alert("GAME RESET!")
 }

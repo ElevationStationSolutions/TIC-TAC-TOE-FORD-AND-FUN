@@ -5,12 +5,10 @@ body {
 }
 svg {
   background-color: black;
+  margin: 20px;
 }
 h1 {
   color: white;
   font-family: Russo One;
   font-size: 500%
-}
-button {
-  display: block;
 }
