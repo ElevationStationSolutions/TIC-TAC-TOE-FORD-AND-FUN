@@ -19,6 +19,7 @@ var cover8 = document.createElementNS(namespace, "rect")
 var mark9 = document.createElementNS(namespace, "circle")
 var cover9 = document.createElementNS(namespace, "rect")
 var turn = 1
+currentTurn()
 function one() {
   if (turn == 1) {
     mark1.setAttribute("cx", 50)
@@ -330,3 +331,10 @@ function reset2() {
   turn = 1
   alert("GAME RESET!")
 }
+document.getElementById("one").style.display = "block"
+document.getElementById("two")
+// function currentTurn() {
+//   if (turn == 1) {
+//     one.style.display = "block"
+//   }
+// }
