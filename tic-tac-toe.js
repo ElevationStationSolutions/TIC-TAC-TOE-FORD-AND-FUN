@@ -331,10 +331,12 @@ function reset2() {
   turn = 1
   alert("GAME RESET!")
 }
-document.getElementById("one").style.display = "block"
-document.getElementById("two")
-// function currentTurn() {
-//   if (turn == 1) {
-//     one.style.display = "block"
-//   }
-// }
+function currentTurn() {
+  if (turn == 1) {
+    document.getElementById("playerOne").setAttribute("style", "display :  block")
+    document.getElementById("playerTwo").setAttribute("style", "display : none")
+  } else {
+    document.getElementById("playerOne").setAttribute("style", "display : none")
+    document.getElementById("playerTwo").setAttribute("style", "display : block")
+  }
+}
